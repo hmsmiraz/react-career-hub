@@ -3,20 +3,20 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   const links = (
     <>
-      <li to='/'>
-        <NavLink>Home</NavLink>
+      <li>
+        <NavLink to='/'>Home</NavLink>
       </li>
-      <li to='/Jobs'>
-        <NavLink>Jobs</NavLink>
+      <li>
+        <NavLink to='/Jobs'>Jobs</NavLink>
       </li>
-      <li to='/Statistics'>
-        <NavLink>Statistics</NavLink>
+      <li>
+        <NavLink to='/AppliedJobs'>Applied Jobs</NavLink>
       </li>
-      <li to='/AppliedJobs'>
-        <NavLink>Applied Jobs</NavLink>
+      <li>
+        <NavLink to='/Statistics'>Statistics</NavLink>
       </li>
-      <li to='/Blogs'>
-        <NavLink>Blogs</NavLink>
+      <li>
+        <NavLink to='/Blogs'>Blogs</NavLink>
       </li>
     </>
   );

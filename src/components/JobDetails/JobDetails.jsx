@@ -10,7 +10,7 @@ const JobDetails = () => {
   const job = jobs.find((job) => job.id == idInt);
 
   const handleApplyJob = () => {
-    saveJobApplication(id);
+    saveJobApplication(idInt);
     toast("Successfully Applied");
   }
 
